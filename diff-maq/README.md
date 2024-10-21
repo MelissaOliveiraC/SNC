@@ -1,2 +1,1 @@
-# SNC
- College Assignments - Symbolic and Numeric Computation
+# Máquina diferencial
