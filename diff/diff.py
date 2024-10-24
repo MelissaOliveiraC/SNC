@@ -1,4 +1,3 @@
-# OBS: y = p2(x)
 def babbage(eixo_y):
     n = len(eixo_y)
     tabela = [eixo_y]
