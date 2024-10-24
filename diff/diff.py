@@ -20,7 +20,7 @@ def polinomio(x, coeficientes):
 
 # Acha próx valor da seq (NOVO)
 def proximo_valor(tabela):
-    prox_valor = tabela[0][-1] # pega o último valor do N1 da tab-diff
+    prox_valor = tabela[0][-1] # pega o último valor do Nível 1 da tab-diff
     for i in range(1, len(tabela)): # percorre os níveis restantes da tab-diff e [...]
         prox_valor += tabela[i][-1] # soma últimos valores de cada nível ao prox_valor
     return round(prox_valor, 2)
