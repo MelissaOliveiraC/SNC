@@ -14,7 +14,7 @@ def babbage(eixo_y):
 def polinomio(x, coeficientes):
     grau = len(coeficientes) - 1
     soma = 0
-    for i in range(grau + 1): # percorre todos os coeficientes, desde o termo de maior grau até o termo const
+    for i in range(grau + 1): # percorre desde o termo de maior grau até o termo const
         soma += coeficientes[i] * (x ** (grau - i))
     return round(soma, 2)
 
