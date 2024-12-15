@@ -25,7 +25,7 @@ def proximo_valor(tabela):
     return round(prox_valor, 2)
 
 # Exemplo de coeficientes para um polinômio de grau 2: 2x^2 - 3x + 2
-coeficientes = [2, -3, 2]
+coeficientes = [2, 3, -5, 2]
 # Valores de x em intervalos regulares de 0.1
 eixo_x = [round(i * 0.1, 2) for i in range(5)]  # modificações: valores de x em intervalos (0.0 a 0.4)
 eixo_y = [polinomio(x, coeficientes) for x in eixo_x] 
